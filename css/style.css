@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -34,12 +35,36 @@ body{
 .home-navbar-nav ul {
     display: flex;
     justify-content: flex-end;
-
+    list-style-type: none;
 }
 
 .home-navbar-nav ul li a {
     color:rgba(255, 255, 255, 0.71) ;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    padding: 0px 10px ;
 }
 
+.home-navbar-brand ul {
+    text-decoration: none ;
+    list-style-type: none;
+}
+
+.home-navbar-brand ul li a {
+    color:rgba(255, 255, 255, 0.71) ;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* Home slider style */
+
+.home-slider{
+    height: 100% ;
+}
+
+.home-slider-item{
+    border : 1px solid red ; 
+    height: calc(100% - 77px);
+    position: relative;
+    z-index: 4 ;
+}
