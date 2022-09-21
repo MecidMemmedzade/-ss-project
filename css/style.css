@@ -31,17 +31,17 @@ body{
     padding-bottom: 40px 0px;
     position: relative;
     z-index: 2;
-    font-family: 'Lato', sans-serif;
+    font-family: inherit
 }
 
 .home-navbar-nav{
-    font-family: 'Lato', sans-serif;
+    font-family: inherit
 }
 .home-navbar-nav ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    font-family: 'Lato', sans-serif;
+    font-family: inherit
 }
 
 .home-navbar-nav ul li a {
@@ -49,10 +49,10 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     padding: 0px 10px ;
-    font-family: 'Lato', sans-serif;
+    font-family: inherit
 }
 .home-navbar-brand{
-    font-family: 'Lato', sans-serif;
+    font-family: inherit
 }
 .home-navbar-brand ul {
     text-decoration: none ;
@@ -63,7 +63,7 @@ body{
     color:rgba(255, 255, 255, 0.71) ;
     text-decoration: none;
     text-transform: capitalize;
-    font-family: 'Lato', sans-serif;
+    font-family: inherit
 }
 
 /* Home slider style */
@@ -122,19 +122,92 @@ body{
 
 }
 
+/* Home slider style  end*/
+
+/* About me  style */
+#about{
+    padding:90px 0px 75px;
+    font-family: 'Lato', sans-serif;
+    color:black;
+    background-color: white;
+    line-height: 26px ;
+}
+
 .text-aboutme{
     color:rgb(65, 49, 49);
     margin: 0px;
 }
 
-.text-aboutme h1{
-
+.text-aboutme h2{
+    font-size: 2.7em;
+    margin-bottom: 20px;
+    color: #131313;
+    margin: 0px 0px 20px;
+    margin-top: 0px ;
+    font: 42px Arial;
+    line-height: 1.1;
 }
 
 .text-aboutme h3{
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #131313;
+    font: 10px ;
+    margin: 0px 0px 15px;
 
 }
 
 .text-aboutme p {
+    margin: 0px 0px 20px;
+    margin-bottom: 20px;
+    color: #181a1b;
+    font-size: 20px;
+    font-weight: 200;
+}
 
+.text-aboutme ul{
+    list-style-type: none;
+    display: flex;
+    padding: 8px 0px ;
+    margin: 9px -7px ;
+}
+
+.text-aboutme ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0px 10px ;
+    width: 50px;
+    height: 40px;
+}
+
+.button-resume{
+    border: 4px solid red;
+    background-color: red;
+    border-radius: 30px;
+    padding: 13px 18px;
+    width: 200px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:Black;
+    font-family: inherit;
+    text-align: center;
+}
+
+.my-projects-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-family: 'Lato', sans-serif;
+}
+
+.value-about{
+    font-family: 'Lato', sans-serif;
+    margin:20px 0px 15px;
+}
+
+.value-about-info{
+    margin:0px;
+}
+
+.about-projects{
+    padding: 0px 15px;
 }
