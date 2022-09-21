@@ -127,3 +127,7 @@
 .my-5{
     margin:var(--spacer-5) 0px;
 }
+
+.font{
+    font-family: 'Lato', sans-serif;
+}
