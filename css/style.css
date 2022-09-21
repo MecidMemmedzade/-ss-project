@@ -73,7 +73,6 @@ body{
 }
 
 .home-slider-item{
-    border : 1px solid rgba(82, 100, 101, 1 ) ; 
     height: calc(100% + 37px);
     position: relative;
     z-index: 4 ;
