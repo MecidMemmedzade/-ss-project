@@ -24,18 +24,24 @@ body{
     background-position: center center;
     background-size: cover;
     position: relative;
+    font-family: 'Lato', sans-serif;
 }
 
 .home-navbar{
     padding-bottom: 40px 0px;
     position: relative;
     z-index: 2;
+    font-family: 'Lato', sans-serif;
 }
 
+.home-navbar-nav{
+    font-family: 'Lato', sans-serif;
+}
 .home-navbar-nav ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+    font-family: 'Lato', sans-serif;
 }
 
 .home-navbar-nav ul li a {
@@ -43,8 +49,11 @@ body{
     text-decoration: none;
     text-transform: capitalize;
     padding: 0px 10px ;
+    font-family: 'Lato', sans-serif;
 }
-
+.home-navbar-brand{
+    font-family: 'Lato', sans-serif;
+}
 .home-navbar-brand ul {
     text-decoration: none ;
     list-style-type: none;
@@ -54,6 +63,7 @@ body{
     color:rgba(255, 255, 255, 0.71) ;
     text-decoration: none;
     text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Home slider style */
@@ -63,8 +73,55 @@ body{
 }
 
 .home-slider-item{
-    border : 1px solid red ; 
-    height: calc(100% - 77px);
+    border : 1px solid rgba(82, 100, 101, 1 ) ; 
+    height: calc(100% - 68px);
     position: relative;
     z-index: 4 ;
 }
+
+.home-slider-item-control  {
+    width:20px;
+    height: 20px;
+    position: absolute ;
+    bottom: 20px;
+    left:50% ; 
+    z-index: 4;
+}
+
+.home-slider-item-control a {
+    color:white;
+    text-decoration: none;
+}
+.home-slider-item-content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.home-slider-item-content h1{
+    color:white;
+    font-size: 2.6em ;
+    padding:13px 13px;
+    margin: 0px 0px;
+}
+
+
+.home-slider-item-content p{
+    color: rgba(82, 100, 101, 0.708);
+    font-size: 1.45em ;
+    margin: 0px 0px ;
+}
+
+.home-slider-item-content img{
+    position:absolute;
+    width: 130px;
+    height: 130px;
+    top:-112%;
+    left:40%;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 0px auto;
+}
+
