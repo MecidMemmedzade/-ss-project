@@ -69,12 +69,12 @@ body{
 /* Home slider style */
 
 .home-slider{
-    height: 100% ;
+    height: 871px ;
 }
 
 .home-slider-item{
     border : 1px solid rgba(82, 100, 101, 1 ) ; 
-    height: calc(100% - 68px);
+    height: calc(100% - 2px);
     position: relative;
     z-index: 4 ;
 }
@@ -104,24 +104,37 @@ body{
     color:white;
     font-size: 2.6em ;
     padding:13px 13px;
-    margin: 0px 0px;
+    margin: 0px ;
 }
 
 
 .home-slider-item-content p{
     color: rgba(82, 100, 101, 0.708);
     font-size: 1.45em ;
-    margin: 0px 0px ;
+    margin: 0px ;
 }
 
 .home-slider-item-content img{
-    position:absolute;
     width: 130px;
     height: 130px;
-    top:-112%;
-    left:40%;
     border-radius: 50%;
     border: 3px solid white;
-    margin: 0px auto;
+
 }
 
+.text-aboutme{
+    color:rgb(65, 49, 49);
+    margin: 0px;
+}
+
+.text-aboutme h1{
+
+}
+
+.text-aboutme h3{
+
+}
+
+.text-aboutme p {
+
+}
