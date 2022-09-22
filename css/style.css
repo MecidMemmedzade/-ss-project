@@ -1,6 +1,5 @@
 body{
     margin:0px;
-    font-family: 'Lato', sans-serif;
 }
 
 
@@ -123,7 +122,7 @@ body{
 
 /* Home slider style  end*/
 
-/* About me  style */
+/* About me style */
 #about{
     padding:90px 0px 75px;
     font-family: 'Lato', sans-serif;
@@ -190,6 +189,8 @@ body{
     color:Black;
     font-family: inherit;
     text-align: center;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .my-projects-about{
@@ -209,4 +210,39 @@ body{
 
 .about-projects{
     padding: 0px 15px;
+}
+
+/* Aboute me style end*/
+
+#myskills{
+    padding: 95px 0px 50px ;
+    background-color: bisque; 
+}
+
+
+.text-myskills{
+    text-align: center;
+    font-weight: 500px;
+    font-size: 1.5em;
+}
+
+.text-myskills h1{
+    margin: 0px 0px 50px;
+    margin-bottom: 50px;
+}
+
+
+.myskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-about{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}   
+
+.skills-about span{
+    padding: 0px 135px;
 }
