@@ -197,6 +197,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     font-family: 'Lato', sans-serif;
+    margin: 30px 70px;
 }
 
 .value-about{
@@ -214,35 +215,50 @@ body{
 
 /* Aboute me style end*/
 
-#myskills{
+#skills{
     padding: 95px 0px 50px ;
     background-color: bisque; 
 }
-
-
-.text-myskills{
-    text-align: center;
-    font-weight: 500px;
-    font-size: 1.5em;
+.skills-text{
+    padding: 0px 15px;
 }
-
-.text-myskills h1{
-    margin: 0px 0px 50px;
+.skills-text h2{
+    text-align: center;
+    bottom:50%;
+    left:50%;
+    font-weight: 300px;
     margin-bottom: 50px;
+    margin: 0px 0px 50px;
+}
+.skills-content{
+    padding: 0px 20px;
 }
 
-
-.myskills{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.skills-content-item{
+    margin-bottom:50px;
+    margin: 0px 0px 50px;
+}
+.skills-bar{
+    border-radius: 25px ;
+    height: 6px;
+    width: 100%;
+    background: gray;
+    position: relative;
 }
 
-.skills-about{
-    text-align: center;
-    margin-bottom: 10px;
-    font-weight: 600;
-}   
-
-.skills-about span{
-    padding: 0px 135px;
+.skills-bar-fill{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: green;
+    width: 77%;
+    height: 6px;
+    transition: width 2s;
+    border-radius: 25px;
 }
+
+.skills-status{
+    display: flex;
+    justify-content: space-between;
+}
+
