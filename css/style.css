@@ -1,5 +1,6 @@
 body{
     margin:0px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -23,7 +24,7 @@ body{
     background-position: center center;
     background-size: cover;
     position: relative;
-    font-family: 'Lato', sans-serif;
+
 }
 
 .home-navbar{
@@ -215,9 +216,11 @@ body{
 
 /* Aboute me style end*/
 
+/*Skills style start*/
+
 #skills{
     padding: 95px 0px 50px ;
-    background-color: bisque; 
+    background-color: #f2f2f2; 
 }
 .skills-text{
     padding: 0px 15px;
@@ -260,5 +263,48 @@ body{
 .skills-status{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
+/*Skills style end*/
+
+/*Portfolio style start*/
+
+#portfolio{
+    padding: 90px 0 80px;
+    background: #fff;
+}
+.portfolio-text{
+
+}
+
+.portfolio-text h2{
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+.porftolio-navbar-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 30px 0px 35px;
+    padding: 6px 10px;
+}
+
+.porftolio-navbar-nav ul li a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #131313;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 6px 17px;
+    margin: 0 3px;
+    font-family: 'Lato', sans-serif;
+}
+
+.picture-test img{
+    width: 200px;
+    height: 200px;
+}
+/*Portfolio style end*/
