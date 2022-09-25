@@ -417,3 +417,79 @@ body{
     margin-top: 10%;
 }
 /* Hire me style end */
+
+/* Testimonial style start */
+#testimonial {
+    padding: 90px 0 120px;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-image:url(../images/bg.jpg) ;
+}
+
+.testimonial-text{
+    position: relative;
+    z-index: 4;
+    color:white;
+}
+.testimonial-text h3{
+    text-align: center;
+}
+
+.testimonial-text p{
+    text-align: center;
+    font: italic;
+    font-size: 2em;
+    width: 30em;
+}
+
+.overlay-testimonial{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    z-index: 1;
+}
+/* Testimonial style end */
+
+/*Blog style start*/
+#blog{
+    padding: 90px 0 95px;
+    background: #fff;
+}
+.blog-text h2{
+    font-size: 2.7em;
+    margin-bottom: 20px;
+    color: #131313;
+    text-align: center;
+}
+
+.blog-content{
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.blog-content-items img{
+    width: 360px;
+    height:225px;
+    object-fit: cover;
+    display: block;
+}
+
+.blog-content-items p {
+    text-align: center;
+}
+
+.blog-content-items a{
+    text-decoration: none;
+    color: Black;
+    font:bold;
+    text-transform: capitalize;
+    margin: 15px 15px;
+}
+/*Blog style end*/
