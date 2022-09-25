@@ -1,0 +1,39 @@
+.picture-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    font-family: 'Quicksand' , sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    opacity: 0 ;
+    transition: opacity 0.20s;
+}
+
+.picture-overlay:hover{
+    opacity: 1;
+}
+
+.picture-overlay > * {
+    transform: translateY(22px);
+}
+.picture-overlay p{
+    font-size: 1em;
+    margin-top:0.25em;
+}
+.image-title{
+    font-size: 1.40em;
+    font-weight: bold;
+}
+
+.picture-overlay-blur{
+    backdrop-filter: blur(5px);
+}
+
+.picture-overlay-primary{
+    background: white;
+    
+}
