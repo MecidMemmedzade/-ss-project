@@ -254,11 +254,47 @@ body{
     left: 0px;
     top: 0px;
     background: green;
+    width: 87%;
+    height: 6px;
+    transition: width 2s;
+    border-radius: 25px;
+}
+
+.skills-bar-fill-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: green;
+    width: 52%;
+    height: 6px;
+    transition: width 2s;
+    border-radius: 25px;
+}
+
+
+.skills-bar-fill-2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: green;
+    width: 96%;
+    height: 6px;
+    transition: width 2s;
+    border-radius: 25px;
+}
+
+
+.skills-bar-fill-3{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: green;
     width: 77%;
     height: 6px;
     transition: width 2s;
     border-radius: 25px;
 }
+
 
 .skills-status{
     display: flex;
@@ -277,7 +313,10 @@ body{
 .portfolio-text{
 
 }
-
+.portfolio-navbar-nav-background{
+    background-color: black;
+    border-radius: 15px;
+}
 .portfolio-text h2{
     text-align: center;
     margin: 0px 0px 20px;
@@ -302,9 +341,22 @@ body{
     margin: 0 3px;
     font-family: 'Lato', sans-serif;
 }
-
+.picture-test{
+    position: relative;
+}
 .picture-test img{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 265px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.portfolio-pictures-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    margin: 0px 20px;
 }
 /*Portfolio style end*/
