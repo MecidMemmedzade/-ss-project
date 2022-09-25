@@ -254,6 +254,11 @@
 }
 }
 
+@media (min-width: 992px)
+.col-md-4 {
+    width: 33.33333333%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
