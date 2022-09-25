@@ -388,3 +388,32 @@ body{
     margin-bottom: 20px;
 }
 /* Services style end */
+
+/* Hire me style start */
+#hire {
+    padding: 95px 0 90px;
+    background: #fff;
+}
+
+#hire p{
+    width: 30em;
+    max-width: 100%;
+}
+.hire-button{
+    float: right;
+}
+
+.hire-button{
+    background-color:black;
+    border-radius: 12px;
+    padding: 13px 18px;
+    width: 200px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(255, 255, 255);
+    font-family: inherit;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10%;
+}
+/* Hire me style end */
